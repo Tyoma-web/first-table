@@ -5,36 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>first-table</title>
-  <style>
+  <title>FWD Lesson</title>
+   <style> 
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 95%;
-      margin: 30px auto;
+      width:95%;
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 30px;
     }
-    
 
-    td,
-    th {
+    td,th {
       border: 3px solid #dddddd;
       text-align: left;
       padding: 8px;
     }
 
     tr:nth-child(even) {
-      background-color: white
+      background-color:white
     }
-  </style>
+  </style> 
 </head>
 
 <body>
   <table border="1">
     <thead>
+      <tr>
+        <th colspan="2"><strong>PERSONAL INFO</strong></th>
+      </tr>
     </thead>
     <tbody>
-      <tr>
-        <td colspan="2"><strong> PERSONAL INFO</strong></td>
-      </tr>
       <tr>
         <td><strong>Property</strong></td>
         <td><strong> Value </strong></td>
@@ -54,11 +55,11 @@
       <tr>
         <td rowspan="2">Phone:</td>
         <td>+380980781088</td>
+      </tr>
       <tr>
         <td>+380957207363</td>
       </tr>
     </tbody>
   </table>
 </body>
-
 </html>
