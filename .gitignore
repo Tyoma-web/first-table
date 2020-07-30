@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>first-table</title>
   <title>FWD Lesson</title>
-   <style> 
+  <style> 
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
